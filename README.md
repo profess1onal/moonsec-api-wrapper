@@ -15,10 +15,15 @@ PolicePocholo|Made the project|1/3/2021
 
 ```js
 module.exports = {
-  api_key: "API KEY HERE",
-  options: "OPTIONS HERE",
-  bytecode: "BYTECODE HERE",
-  platform: "PLATFORM HERE",
+  api_key: "API Key Here",
+  options: {
+    "StringEncryption": false,
+    "ConstantEncyrption": false,
+    "AntiDump": false,
+    "SmallerOutput": false
+  },
+  bytecode: "1",
+  platform: "Lua",
 };
 ```
 
@@ -33,7 +38,7 @@ The options are:
 4: SmallerOutput: Gives super minified output - this might decrease security
 ```
 
-Add them together with `+`.
+Self-Explanatory on how to use.
 
 Bytecode options:
 
