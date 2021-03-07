@@ -1,0 +1,15 @@
+{
+  "name": "moonsec-api-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "author": "PolicePocholo",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "terminal-kit": "^2.0.3"
+  }
+}
