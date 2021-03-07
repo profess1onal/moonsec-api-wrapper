@@ -34,7 +34,7 @@ The options are:
 ```
 1: StringEncryption: Secures your strings, doesn't cause performance loss.
 2: ConstantEncryption: Encrypts constants in the bytecode.
-3: AntiDump: Stops common constant dumping methods. (Works on executors only)
+3: AntiDump: Stops common constant dumping methods.
 4: SmallerOutput: Gives super minified output - this might decrease security
 ```
 
