@@ -1,7 +1,7 @@
 {
   "name": "moonsec-api-wrapper",
   "version": "1.0.0",
-  "description": "",
+  "description": "moonsec api wrapper. the title says it all.",
   "main": "src/index.js",
   "scripts": {
     "run": "node ."
