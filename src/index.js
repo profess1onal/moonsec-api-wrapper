@@ -6,6 +6,8 @@ const { api_key, options, bytecode, platform } = require("../config");
 const script = fs.readFileSync("script.txt", "utf-8");
 
 let optionsl;
+let bytecodel;
+let platforml;
 
 if (options.AntiDump) {
   if (optionsl) {
@@ -39,7 +41,19 @@ if (options.StringEncryption) {
   }
 }
 
-const link = `https://api.f3d.at/v1/obfuscate.php?key=${api_key}&options=${optionsl}&bytecode=${bytecode}&platform=${platform}`;
+if (bytecode.Arabic) bytecodel = "0";
+if (bytecode.Letters) bytecodel = "1";
+if (bytecode.Symbols) bytecodel = "2";
+if (bytecode.Russian) bytecodel = "3";
+if (bytecode.Whitespace) bytecodel = "4";
+if (bytecode.Chinese) bytecodel = "5";
+if (bytecode.Emoji) bytecodel = "6";
+
+if (platform.lua) platforml = "lua";
+if (platform.roblox) platforml = "roblox";
+if (platform.csgo) platforml = "csgo";
+
+const link = `https://api.f3d.at/v1/obfuscate.php?key=${api_key}&options=${optionsl}&bytecode=${bytecodel}&platform=${platforml}`;
 
 fetch(link, {
   method: "POST",
