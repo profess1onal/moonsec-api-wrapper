@@ -3,13 +3,25 @@ Read README.md for more information on how to use this.
 */
 
 module.exports = {
-  api_key: "API Key Here",
+  api_key: "API KEY HERE",
   options: {
-    "StringEncryption": false,
-    "ConstantEncyrption": false,
-    "AntiDump": false,
+    "StringEncryption": true,
+    "ConstantEncyrption": true,
+    "AntiDump": true,
     "SmallerOutput": false
   },
-  bytecode: "1",
-  platform: "Lua",
+  bytecode: {
+    "Arabic": true,
+    "Letters": false,
+    "Symbols": false,
+    "Russian" : false,
+    "Whitespace": false,
+    "Chinese": false,
+    "Emoji": false
+  },
+  platform: {
+    "lua": true,
+    "roblox": false,
+    "csgo": false
+  },
 };
