@@ -9,7 +9,6 @@
   "author": "PolicePocholo",
   "license": "ISC",
   "dependencies": {
-    "node-fetch": "^2.6.1",
-    "terminal-kit": "^2.0.3"
+    "node-fetch": "^2.6.1"
   }
 }
