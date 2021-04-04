@@ -12,5 +12,6 @@ PolicePocholo|Made the project|1/3/2021
 
 
 ### config.js Use
+Self explanatory.
 
-Everything is now self-explanatory. This project is no longer maintained until I find a better way to do all that shit without it being very long.
+https://cmoonm4n.gitbook.io/moonsec-obfuscator/moonsec-rest-api-docs for more information!
